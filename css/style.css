@@ -1,1 +1,223 @@
+@charset "utf-8";
 
+body, h1, h2, p, ul, figure{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: outside none none;
+}
+.none{
+	display: none;
+}
+#header{
+	width: 100%;
+	min-width: 1263px;
+	height: 70px; 
+	background-color: #333;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 999;
+}
+ 
+#header .center{
+	width: 1263px;
+	height: 70px;
+	margin:0 auto;
+}
+
+#header .logo{
+	width:240px;
+	height: 70px; 
+	background-image: url(../img/logo.png);
+	text-indent: -999px;
+	float: left;
+}
+
+#header .link{
+	width: 650px; 
+	float: right;
+	height: 70px;
+	line-height: 70px;
+}
+
+#header .link li{
+	float: left;
+	width: 120px;
+	text-align: center;
+	color: #eee;
+}
+
+#header .link a{
+	display: block;
+	color: #eee;
+}
+#header .link a:hover,#header .active  a {
+	background: #000;
+}
+
+#search{
+	width: 100%;
+	min-width: 1263px;
+	height: 600px;
+	background: url(../img/adver.jpg) no-repeat center;
+	position: relative;
+}
+#search .center{
+	width: 600px;
+	height: 60px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -30px 0 0 -300px;
+	border-radius: 10px;
+	opacity: 0.6;
+}
+#search .search{
+	width: 446px;
+	height: 52px;
+	background-color: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -296px;
+	border-radius: 10px; 
+	border: 1px solid #666;
+	color: #666;
+	font-size: 24px;
+	padding: 0px 10px;
+	outline: none;
+}
+#search .button{
+	width: 120px;
+	height: 54px;
+	background-color: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 175px;
+	border-radius: 10px;
+	border: 1px solid #666;
+	color: #666;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0px 10px;
+	cursor: pointer;
+	outline: none;
+}
+#tour{
+	width: 1263px;  
+	height: 1150px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px  0;
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure{
+	border:1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 380px;
+	text-align: left;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+}
+#tour figure figcaption{
+	text-align: left;
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 7px 0 5px 0; 
+}
+#tour .title{
+	color: #333;
+	font-weight: normal;
+}
+#tour .sat{
+	float: right;
+	font-size: 14px;
+	color: #999;
+	font-style: normal;
+	position: relative;
+	top: 5px;
+	right: 5px;
+} 
+#tour .price{
+	color: #f60;
+	font-size: 14px;
+}
+#tour .price strong{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px; 
+	font-size: 14px; 
+	text-align: center;
+	color: #fff;
+	background-color: #59b200; 
+	position: absolute;
+	top: 4px;
+	left:4px; 
+}
+#footer{
+	height: 240px;
+	background-color: #222;
+}
+#footer .top{
+	width: 1263px;
+	height: 180px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer .bottom{
+	height: 60px;
+	background-color: #333;
+	line-height: 60px;
+	color: #777;
+	text-align: center;
+	border-top: 1px solid #444;
+}
+#footer .block{
+	height: 160px;
+	width: 410px;
+	display: inline-block;
+	color: #ccc;
+	text-align: left;
+	vertical-align: top;
+}
+#footer hr{
+	width: 90%;
+	border: 1px dashed #333 ;
+}
+#footer h2{
+	font-size: 20px;
+	font-weight: normal;
+	padding: 10px 0 0 20px;
+}
+#footer ul{
+	font-size: 16px;
+	text-indent: 20px;
+	color: #777;
+	line-height: 1.5;
+}
